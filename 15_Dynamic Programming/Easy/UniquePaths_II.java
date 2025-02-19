@@ -23,7 +23,7 @@ public class UniquePaths_II {
         int m = obstacleGrid.length;
         int n = obstacleGrid[0].length;
         int[] dp = new int[n];
-        for (int i = 0; i < m; i++) {
+        for (int i = 0; i < m; i++) {k
             int[] temp = new int[n];
             for (int j = 0; j < n; j++) {
                 if (obstacleGrid[i][j] == 1) {
